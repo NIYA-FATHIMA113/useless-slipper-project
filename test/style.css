@@ -1,0 +1,132 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+  color: #333;
+}
+
+/* Container styling */
+.container {
+  background: #ffffffdd;
+  padding: 30px 25px;
+  border-radius: 16px;
+  max-width: 520px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00796b;
+  user-select: none;
+}
+
+/* Description text */
+p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: #004d40;
+  user-select: none;
+}
+
+/* Stylish file input */
+input[type="file"] {
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: #00796b;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 121, 107, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="file"]:hover,
+input[type="file"]:focus {
+  background: #004d40;
+  box-shadow: 0 6px 18px rgba(0, 77, 64, 0.6);
+  outline: none;
+}
+
+/* Canvas styling */
+canvas {
+  margin-top: 25px;
+  max-width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  background: #f9f9f9;
+  user-select: none;
+  transition: transform 0.25s ease;
+}
+
+canvas:hover {
+  transform: scale(1.03);
+}
+
+/* Result box */
+#result {
+  margin-top: 28px;
+  padding: 18px 24px;
+  font-size: 1.3rem;
+  border-radius: 14px;
+  font-weight: 700;
+  user-select: none;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Result states */
+.result.aligned {
+  background: #43a047;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.result.misaligned {
+  background: #e53935;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  .container {
+    max-width: 95%;
+    padding: 20px 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  input[type="file"] {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  #result {
+    font-size: 1.1rem;
+    padding: 15px 20px;
+  }
+}
