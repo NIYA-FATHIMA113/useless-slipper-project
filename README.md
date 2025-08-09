@@ -1,16 +1,16 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# slipper alignment project 🎯
+# Slipper Alignment Project 🎯
 
 
 ## Basic Details
-### Team Name: team fireflies
+### Team Name: Team Fireflies
 
 
 ### Team Members
-- Team Lead:Niya fathima - collge of engineering Chengannur
-- Member 2: Gatha S - collge of engineering Chengannur
+- Team Lead:Niya fathima - college of Engineering Chengannur
+- Member 2: Gatha S - college of Engineering Chengannur
 
 
 ### Project Description
@@ -64,45 +64,21 @@ npm install
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![[Screenshot1](https://drive.google.com/file/d/1W_06lYyejSKcGw7m-hsK2b09vdN9nsFY/view?usp=drive_link)]
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+![[Screenshot2](https://drive.google.com/file/d/1bsUEOsjdKIsRjmJJnwtH5Q4ZPvy1fbD9/view?usp=drive_link)]
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[[Add your demo video link here](https://drive.google.com/file/d/14kMfRVsFdP480OpaT0EaIz5qgftl1GaS/view?usp=drive_link)]
 
-# Additional Demos
-[Add any extra demo materials/links]
+
+
 
 ## Team Contributions
 - [Name 1]: [Specific contributions]
